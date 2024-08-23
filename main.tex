@@ -1,0 +1,63 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Introducción a Packet Tracer}
+\author{Juan Cruz Villena}
+
+
+\begin{document}
+\maketitle
+
+
+\section{Packet Tracer}
+
+Permite crear simulaciones de entornos de redes.
+Se pueden agregar dispositivos y cables para conectar los dispositivos entre sí.
+Cada elemento se puede seleccionar, inspeccionar o eliminar.
+Packet Tracer cuenta con varios elementos, en el cursado estaremos viendo dispositivos finales, dispositivos de red y conexiones.
+Se pueden enviar paquetes entre dispositivos conectados.
+
+\subsection{Dispositivos Finales}
+Son los puntos finales de las conexiones.
+\begin{enumerate}
+\item PC Contiene una serie de modulos que se le pueden agregar, su configuración que se puede editar, una serie de aplicaiones de escritorio, un entorno de programacion y sus atributos.
+\item Laptop. Similar a la PC, unicamente cuenta con diferentes modulos y diferente estructura fisica.
+\item Servidor. Similar a PC, con diferente estructura fisica y permite brindar servicios de red.
+\end{enumerate}
+
+\subsection{Dispositivos de Red}
+Permiten conectar 2 o más dispositivos al funcionar como intermediarios.
+\begin{enumerate}
+\item Routers. Tienen estructura fisica, configuracion, una interfaz de linea de comandos y atributos
+\item Switchers. Similar a Routers pero menos modulos y más puertos.
+\item Hubs. Estructura fisica, configuracion y atributos.
+\end{enumerate}
+
+\subsection{Cableado}
+
+\begin{enumerate}
+\item Copper Straight-Through: Cable directo para conectar pc a hub o switch.
+\item Copper Cross-Over: Se utiliza para conectar switchs o hubs entre sí.
+\end{enumerate}
+
+\subsection{Conexión de 2 Computadoras}
+2 PCs se pueden conectar mediante un cable cruzado básico, aunque solo permiten la conexión de 2 dispositivos. Para conectar otro dispositivo se necesitaria el uso de un hub o switch.
+
+\cite{juancruz}
+\bibliographystyle{alpha}
+\bibliography{sample}
+\href{https://github.com/Juancruz2003/TP-Packet-Tracer}{https://github.com/Juancruz2003/TP-Packet-Tracer}
+
+\end{document}
